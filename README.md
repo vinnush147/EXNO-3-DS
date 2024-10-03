@@ -105,25 +105,39 @@ df
 ```
 ![image](https://github.com/user-attachments/assets/eaceb39b-9e53-43c5-92fe-563fdd2793e9)
 
-### np.log(df["Highly Positive Skew"])
+```
+np.log(df["Highly Positive Skew"])
+```
 ![image](https://github.com/user-attachments/assets/a7e9b0da-b281-4ef3-b3a0-1b4715502a84)
 
-### np.reciprocal(df["Moderate Positive Skew"])
+```
+np.reciprocal(df["Moderate Positive Skew"])
+```
 ![image](https://github.com/user-attachments/assets/0f1be1ac-dfdb-43ff-ac1c-2c774127152a)
 
-### np.sqrt(df["Highly Positive Skew"])
+```
+np.sqrt(df["Highly Positive Skew"])
+```
 ![image](https://github.com/user-attachments/assets/34ec5e5b-561e-4059-b699-b758fe6ff9cc)
 
-### np.square(df["Highly Positive Skew"])
+```
+np.square(df["Highly Positive Skew"])
+```
 ![image](https://github.com/user-attachments/assets/ae015d8e-a80b-4e15-b6f3-d83b93144cfc)
 
-### df["Highly Positive Skew_boxcox"],parameters=stats.boxcox(df["Highly Positive Skew"])
+```
+df["Highly Positive Skew_boxcox"],parameters=stats.boxcox(df["Highly Positive Skew"])
+```
 ![image](https://github.com/user-attachments/assets/925a6858-c59a-4668-948b-5817dff43772)
 
-### df["Moderate Negative Skew_yeojohnson"],parameters=stats.yeojohnson(df["Moderate Negative Skew"])
+```
+df["Moderate Negative Skew_yeojohnson"],parameters=stats.yeojohnson(df["Moderate Negative Skew"])
+```
 ![image](https://github.com/user-attachments/assets/c61ceee3-c714-4941-94ca-f6ff032d0dd7)
 
-### df.skew()
+```
+df.skew()
+```
 ![image](https://github.com/user-attachments/assets/c04271e7-1a8a-4c81-bb32-e65dab56308c)
 
 ```
